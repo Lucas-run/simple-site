@@ -1,0 +1,42 @@
+:root {
+  /* Semantic colors (dark theme) */
+  --color-bg-page: #0f0e10;
+  --color-bg-surface: #1b181c;
+  --color-bg-surface-hover: #2c282e;
+  --color-border-default: #2c282e;
+  --color-text-primary: #f8f7f8;
+  --color-text-secondary: #a8a1ac;
+  --color-accent: #bc315b;
+  --color-accent-subtle: #5a152b;
+  --color-feedback-success: #34d399;
+  --color-feedback-danger: #f87171;
+  --color-overlay: rgba(0, 0, 0, 0.5);
+  --color-focus-ring: #e293a9;
+
+  /* Effects */
+  --backdrop-blur: 4px;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  /* Radius */
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+
+  /* Typography */
+  --font-family-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+
+  /* Motion */
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}

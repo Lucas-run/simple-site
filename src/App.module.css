@@ -1,0 +1,22 @@
+.main {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4);
+}
+
+.heading {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--space-6);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+  gap: var(--space-4);
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+}
